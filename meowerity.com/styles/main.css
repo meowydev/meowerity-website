@@ -26,7 +26,7 @@ body {
     height: 50px;
     padding: 0 16px;
     min-width: 50px;
-    background-image: linear-gradient(to left, #7c00ff, #594cbf);
+    background-image: linear-gradient(to bottom, #002aff, #01c6a2);
     border: none;
     outline: none;
 }
