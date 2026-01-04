@@ -27,8 +27,8 @@ body {
     padding: 0 16px;
     min-width: 50px;
     background-image: linear-gradient(to bottom, #002aff, #01c6a2);
-    border: none;
-    outline: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .features {
@@ -49,4 +49,6 @@ body {
     min-width: 50px;
     background-image: linear-gradient(to bottom, #002aff, #01c6a2);
     border-radius: 15px;
+    color: inherit;
+    text-decoration: none;
 }
