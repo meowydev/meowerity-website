@@ -39,3 +39,15 @@ body {
     width: 100%;
     border-radius: 15px;
 }
+
+.features-btw {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 16px;
+    min-width: 50px;
+    background-image: linear-gradient(to bottom, #002aff, #01c6a2);
+    border: none;
+    outline: none;
+}
