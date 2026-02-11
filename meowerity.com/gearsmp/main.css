@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(to left, #430000, #4c3f00);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: arial,ui-monospace;
+    color: white;
+    margin-top: 50px;
+}
+.header0 {
+    background-image: linear-gradient(50deg, #bcbcbc, #3d24ff);
+    background-clip: text;
+    color: transparent;
+}
+#topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #f80000, #ffd400);
+}
+.topbar-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 16px;
+    min-width: 50px;
+    background-image: linear-gradient(to bottom, #002aff, #01c6a2);
+    color: inherit;
+    text-decoration: none;
+}
