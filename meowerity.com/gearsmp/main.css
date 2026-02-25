@@ -17,7 +17,7 @@ body {
     left: 0;
     height: 50px;
     width: 100%;
-    background-image: linear-gradient(to bottom, #f80000, #ffd400);
+    background-image: linear-gradient(to bottom, #575757, #000000);
 }
 .topbar-btn {
     display: inline-flex;
@@ -29,4 +29,45 @@ body {
     background-image: linear-gradient(to bottom, #002aff, #01c6a2);
     color: inherit;
     text-decoration: none;
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("../jetbrainsmono/JetBrainsMono-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.ip {
+    font-family: JetBrainsMono, ui-monospace, monospace;
+    font-size: 30px;
+    color: #b5b4b4;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%);
+    background-color: #5e5e5e;
+    width: 30%;
+    height: 20%;
+    border-radius: 20px;
+}
+.warn {
+    font-family: JetBrainsMono, ui-monospace, monospace;
+    font-size: 30px;
+    color: #000000;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%);
+    background-color: #24ff00;
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
 }

@@ -1,17 +1,29 @@
+
 .features {
     position: fixed;
-    left:0;
-    background-color: rgba(255, 255, 255, 0.3);
-    height: 70%;
+    top: 180px;
+    left: 0px;
+    right: 0;
+    bottom: 40px;
     width: 100%;
+    box-sizing: border-box;
+
+    background-color: rgba(255,255,255,0.3);
     border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px;
 }
 
 .features-btn {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 100px;
+    width: 100px;
     padding: 0 16px;
     min-width: 50px;
     background-image: linear-gradient(to bottom, #002aff, #01c6a2);
